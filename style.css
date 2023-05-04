@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: white;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-container {
+    background-image: url(./background-img.jpg);
+    height: 110vh;
+    width: 95%;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+ul {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul li {
+    list-style: none;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-around;
+
+}
+
+.fa-solid {
+    color: white;
+}
+
+.btn button {
+    height: 30px;
+    width: 50%;
+    font-size: 15px;
+    background-color: #d9fc00;
+    border: none;
+    color: black;
+}
+
+.text-aection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.text-aection p {
+    margin-top: 10px;
+    font-size: 10px;
+    color: gainsboro;
+}
+
+.text-aection h1 {
+    font-size: 60px;
+    color: white;
+    margin-left: 10px;
+}
+
+.text-aection button {
+    height: 35px;
+    width: 10%;
+    font-size: 15px;
+    background-color: #d9fc00;
+    border: none;
+    margin-top: 10px;
+    color: black;
+}
+
+.card {
+    height: 200px;
+    width: 70%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-left: 20px;
+
+}
+
+.text-img {
+    background-color: #181818;
+    height: 200px;
+    width: 30%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-img img {
+    height: 35px;
+    margin-top: 20px;
+}
+
+.text-img h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+}
+
+.text-img p {
+    font-size: 12px;
+    margin-top: 20px;
+    color: gainsboro;
+}
